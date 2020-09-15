@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:      
+  mongodb:
+    image: mongo
+    container_name: scrapy_mongodb
+    ports:
+        - "27017:27017"    
+    networks:
+        - mongodb-network
+
+networks:
+  mongodb-network:
+    driver: bridge

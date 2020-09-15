@@ -1,0 +1,8 @@
+Django==3.0
+Scrapy==2.1.0
+scrapyd==1.2.0
+python-scrapyd-api==2.1.2
+scrapy-djangoitem==1.1.1
+pymongo==3.10.1
+scrapyd-client==1.1.0
+celery==4.4.6
